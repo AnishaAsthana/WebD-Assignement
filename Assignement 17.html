@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form action="submit.php" method="POST">
+        <div>
+            <input type="text" name="fullname" placeholder="Full name" required>
+        </div>
+        <br>
+        <div>
+            <input type="email" name="email" placeholder="you@college.edu" required>
+        </div>
+        <br>
+        <div>
+            <input type="text" name="mobile" placeholder="10-digit mobile" title="Enter exactly 10 digits" required>
+        </div>
+        <br>
+        <div>
+            <input type="password" name="password" placeholder="Min 4 characters" minlength="4" required>
+        </div>
+        <br>
+        <div>
+            <input type="number" id="age" name="age" max="30" placeholder="Age (17)" required>
+        </div>
+        <br>
+        <div>
+            <button type="submit">Register</button>
+        </div>
+    </form>
+
+</body>
+</html>
