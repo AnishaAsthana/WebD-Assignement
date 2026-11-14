@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC College Admission 2026</title>
+</head>
+<body style="margin: 0;">
+    <header style="color: rgb(255, 255, 255); background-color: rgb(26, 23, 120); text-align: center; padding: 10px;">
+        <h1>ABC College Admission 2026</h1>
+    </header>
+
+    <main style="width: 800px; margin: 20px auto;">
+        <section style="margin-bottom: 30px;">
+            <h2>Courses and Fees</h2>
+            <table border="1" cellpadding="10" cellspacing="0" style="width: 100%; border-collapse: collapse;">
+                <caption>Available Courses</caption>
+                <tr>
+                    <th style="background-color: rgba(208, 225, 239, 0.797); color: rgb(0, 0, 0);">Course</th>
+                    <th style="background-color: rgba(208, 225, 239, 0.797); color: rgb(0, 0, 0);">Seats</th>
+                    <th style="background-color: rgba(208, 225, 239, 0.797); color: rgb(0, 0, 0);">Fees</th>
+                </tr>
+                <tr>
+                    <td>B.Tech CSE</td>
+                    <td>120</td>
+                    <td>₹90,000</td>
+                </tr>
+                <tr>
+                    <td>BCA</td>
+                    <td>60</td>
+                    <td>₹45,000</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <form action="#" method="POST">
+                <fieldset style="margin: 0; padding: 20px;">
+                    <legend>Application Form</legend>
+
+                    <div style="margin-bottom: 15px;">
+                        <label for="name" style="display: block; margin-bottom: 5px;">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div style="margin-bottom: 15px;">
+                        <label for="email" style="display: block; margin-bottom: 5px;">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div style="margin-bottom: 15px;">
+                        <label for="course" style="display: block; margin-bottom: 5px;">Course:</label>
+                        <select id="course" name="course" required>
+                            <option value="btech-cse">B.Tech CSE</option>
+                            <option value="bca">BCA</option>
+                        </select>
+                    </div>
+
+                    <div style="margin-bottom: 15px;">
+                        <label for="statement" style="display: block; margin-bottom: 5px;">Statement:</label>
+                        <textarea id="statement" name="statement" minlength="10" rows="4" cols="60" required></textarea>
+                    </div>
+
+                    <button type="submit">Apply</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer style="color: rgb(255, 255, 255); background-color: rgb(26, 23, 120); text-align: center; padding: 10px; margin-top: 30px;">
+        <p>&copy; 2026 ABC College</p>
+    </footer>
+</body>
+</html>
